@@ -21,18 +21,18 @@ Testy przeprowadzone na stronie [SQNStore.pl](https://sqnstore.pl/)
    [opis i kroki](./sqn-test-rejestracja.txt)
 ```
 uruchomienie testu:
-python3
+python3 sqn_test_rejestracja.py
 ```
 - Drugi test
 
   Dodanie do koszyka z poziomu strony głównej produktu dostępnego i niedostępnego w magazynie
 
-  ![SQN](./image/indeks.png)
+  ![SQN](./images/image.png)
 
   [opis i kroki](./sqn-test-koszyk.txt)
 
   Test bardzo wrażliwy na zmiany struktury strony (w momencie dodawania do repozytorium brak na stronie gównej produktów niedostępnych)
 ```
 uruchomienie testu:
-python3
+python3 sqn_test_koszyk.py
 ```
