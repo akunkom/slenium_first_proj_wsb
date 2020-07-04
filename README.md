@@ -27,7 +27,9 @@ python3
 
   Dodanie do koszyka z poziomu strony głównej produktu dostępnego i niedostępnego w magazynie
 
-  [opis i kroki](https://github.com/akunkom/slenium_first_proj_wsb/blob/master/sqn-test-koszyk.txt)
+  ![SQN](./image/indeks.png)
+
+  [opis i kroki](./sqn-test-koszyk.txt)
 
   Test bardzo wrażliwy na zmiany struktury strony (w momencie dodawania do repozytorium brak na stronie gównej produktów niedostępnych)
 ```
