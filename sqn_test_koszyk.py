@@ -59,11 +59,12 @@ class SQNstoreRegistration(unittest.TestCase):
         logo.click()
 
         # 2. Kliknij "DODAJ DO KOSZYKA"
-        produkt=driver.find_element_by_xpath('//a[@data-id-product="706"]')
-        driver.execute_script("arguments[0].click();", produkt)
+        produkt=driver.find_element_by_xpath('//a[@data-id-product="738"]')
+        produkt.click()
+        #driver.execute_script("arguments[0].click();", produkt)
 
         # opóźnienie 10s
-        sleep(10)
+        sleep(20)
 
         # screenshot strony
         driver.get_screenshot_as_file("screenshot1.png")
