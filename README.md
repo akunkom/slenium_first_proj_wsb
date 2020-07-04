@@ -19,9 +19,10 @@ Testy przeprowadzone na stronie [SQNStore.pl](https://sqnstore.pl/)
    Rejestracja użytkownika przy wpisaniu nieprawidłowego adresu e-email
 
    [opis i kroki](./sqn-test-rejestracja.txt)
+
+   uruchomienie testu:
 ```
-uruchomienie testu:
-python3 sqn_test_rejestracja.py
+$ python3 sqn_test_rejestracja.py
 ```
 - Drugi test
 
@@ -32,7 +33,8 @@ python3 sqn_test_rejestracja.py
   [opis i kroki](./sqn-test-koszyk.txt)
 
   Test bardzo wrażliwy na zmiany struktury strony (w momencie dodawania do repozytorium brak na stronie gównej produktów niedostępnych)
+
+  uruchomienie testu:
 ```
-uruchomienie testu:
-python3 sqn_test_koszyk.py
+$ python3 sqn_test_koszyk.py
 ```
