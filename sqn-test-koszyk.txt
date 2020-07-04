@@ -1,0 +1,34 @@
+Scenariusz testowy:
+Zakupy w SQN Store
+
+Warunki wstępne:
+Przeglądarka otwarta na stronie www.sqnstore.pl
+Użytkownik zalogowany
+
+Kroki:
+1. Kliknij przycisk "Zarejestruj"
+2. Wpisz e-mail
+3. Wpisz hasło
+4. Kliknij "Zaloguj"
+
+Przypadek testowy 1:
+Dodanie książki dostępnej w magazynie do koszyka
+
+Kroki:
+1. Powrót na stronę główną sklepu (kliknij logo)
+2. Kliknij "DODAJ DO KOSZYKA"
+
+Oczekiwany rezultat:
+1. Użytkownik otrzymuje informację:
+"Produkt dodany poprawnie do Twojego koszyka"
+
+Przypadek testowy 2:
+Dodanie książki niedostępnej w magazynie do koszyka
+
+Kroki:
+1. Powrót na stronę główną sklepu (kliknij logo)
+2. Kliknij "BRAK W MAGAZYNIE"
+
+Oczekiwany rezultat:
+1. Użytkownik nie otrzymuje informacji:
+"Produkt dodany poprawnie do Twojego koszyka"

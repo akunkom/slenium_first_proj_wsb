@@ -1,0 +1,23 @@
+Scenariusz testowy:
+Rejestracja na stronie sqnstore.pl
+
+Przypadek testowy:
+Błędny e-mail (brak znaku '@')
+
+Warunki wstępne:
+Przeglądarka otwarta na stronie www.sqnstore.pl
+
+Kroki:
+Wejdź na stronę: https://sqnstore.pl/
+Kliknij przycisk "Zarejestruj"
+Kliknij przycisk "Nie masz konta? Załóż je tutaj"
+Wpisz imię
+Wpisz nazwisko
+Wpisz niepoprawny mail (brak znaku '@')
+Wpisz hasło
+Zaznacz "Akceptuję ogólne warunki użytkowania"
+Kliknij "ZAPISZ"
+
+Oczekiwany rezultat:
+1. Użytkownik otrzymuje informację:
+"Uwzględnij znak @ w adresie e-mail"
